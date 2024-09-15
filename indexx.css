@@ -1,0 +1,303 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.homepage {
+    background-color: #222222;
+    color: white;
+    border-radius: 0;
+    margin: 20px; /* Increase margin for visibility */
+    height: 1100px; /* Let content decide height */
+    width: 1100px;
+    padding: 52px 40px 60px;
+   border-radius: 30px;
+
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.text-logo {
+    display: flex;
+    align-items: center;
+   
+}
+
+.site-nav {
+    display: flex;
+}
+
+.site-main-menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.site-main-menu li {
+    margin-left: 20px; /* Space between navigation links */
+}
+
+.site-main-menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo-symbol, .logo-text {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.menu-toggle {
+    display: none; /* Hide for desktop view */
+}
+
+
+.logo-text{
+    text-decoration: none; /* Underline remove karne ke liye */
+    color: white; /* Link ka color white rakhen */
+}
+.header.animate {
+    -webkit-transition: all .44s ease-in-out;
+    -moz-transition: all .44s ease-in-out;
+    -o-transition: all .44s ease-in-out;
+    -ms-transition: all .44s ease-in-out;
+    transition: all .44s ease-in-out
+}
+
+
+    @media (max-width:1000px) {
+        .hide{
+            display: none;
+        }
+    }
+    .image{
+        margin-top: 2rem;
+       background-color: #444444;
+        width: 300px;
+        border-radius: 250px;
+        padding: 1rem;
+       margin-left: 10rem;
+       height: 300px;
+    }
+
+    .image:hover {
+        transform: scale(1.1); /* Slightly enlarge on hover */
+    }
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; /* Optional margin for spacing */
+}
+
+.row.flex-v-align {
+    display: flex;
+    align-items: center; /* Align the image and text vertically */
+}
+.home-photo {
+    margin-right: 20px; /* Space between image and text */
+}
+
+.home-text {
+    max-width: 400px; /* Ensure the text has a readable width */
+    height: 200px;
+    margin-left: 20px;
+}
+
+.light-text{
+    opacity: 0.5;
+}
+.para{
+    font-weight: 100;
+}
+.badge {
+    margin-top: 1rem;
+    text-decoration: none;
+    background-color: #333333;
+    border-radius: 40px;
+    margin-left: 1rem;
+    text-align: center;
+    padding: 0.35rem 1rem;
+    font-weight: 700;
+    display: inline-block; /* Ensure the links are displayed properly */
+}
+
+#b1, #b2 {
+    display: inline-block; /* Ensure the links are displayed as inline-block */
+    border: none; /* Remove border from the link */
+    width: 130px;
+    height: 30px;
+    text-align: center; /* Align text in center */
+    line-height: 30px; /* Center text vertically */
+}
+
+#b1 {
+    border: 2px solid rgb(0, 102, 255);
+    color: aliceblue;
+}
+
+#b1:hover {
+    background-color: rgb(0, 102, 255);
+    color: aliceblue; /* Ensure text color matches background on hover */
+}
+
+#b2 {
+    border: 2px solid white;
+    color: azure;
+}
+
+#b2:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.badge button {
+    border: none; /* Remove border from buttons */
+    background: none; /* Remove background from buttons */
+    padding: 0; /* Remove default padding from buttons */
+    margin: 0; /* Remove default margin from buttons */
+    font: inherit; /* Inherit font style from parent element */
+    cursor: pointer; /* Show pointer cursor on hover */
+    color: inherit; /* Inherit color from parent element */
+}
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping if necessary */
+    gap: 40px; /* Space between items */
+   
+}
+
+
+.info-list-w-icon {
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    text-align: center;
+    justify-content: center;
+    color: #ffffff; 
+    max-width: 500px;
+}
+
+.ci-text h4 {
+    color: #ffffff; /* Dark blue color */
+    font-family: 'Verdana', sans-serif; /* Verdana font */
+    text-align: left; /* Center align text */
+    font-weight: bold; /* Bold text */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Light shadow */
+    text-transform: capitalize; /* Capitalize each word */
+    padding: 1px; /* Padding around the text */
+    margin-bottom: 1px;
+
+}
+
+
+.ci-text p{
+    color: #ffffff; 
+    text-align: left; /* Center align text */
+    padding: 1px; /* Padding around the text */
+    margin-top: 0.2px;
+    margin-right: 4px;
+    opacity: 0.8;
+}
+/* Styling the footer icons */
+/* Ensure the container of the icons is centered */
+.footer-icon {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Center the icons horizontally */
+    align-items: center; /* Center vertically if needed */
+    padding: 0;
+    margin: 0 auto; /* Center the ul container itself */
+    width: fit-content; /* Ensure it takes only the necessary width */
+}
+
+/* Space between each icon */
+.social-icon {
+    margin: 0 15px; /* Adjust space between icons */
+}
+
+/* Size and styling for the images */
+.social-icon img {
+    width: 32px; /* Set a fixed width for the icons */
+    height: 32px; /* Set a fixed height for the icons */
+    border-radius: 50%; /* Optional: Make the icons round */
+    transition: transform 0.3s ease; /* Add a smooth hover effect */
+}
+
+.social-icon img:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Style for the footer section or parent container */
+footer-07 {
+    text-align: center; /* Center align the footer content */
+    padding: 20px 0; /* Optional: Add padding around the footer */
+    height: 300px;
+
+}
+.text-footer {
+    text-align: center;
+    justify-content: center;
+    margin-bottom:2rem ;
+}
+.line{
+    width: 100%;
+    height: 30%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+    margin-top: 10rem;
+    align-items: center;
+    justify-content: center;
+ }
+ .text-footer a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 1rem;
+   
+ }
+ /* indexx.css */
+
+/* Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

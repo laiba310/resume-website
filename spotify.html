@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="spoitify.css">
+    <link rel="icon" href="logo.png">
+    <link rel="font" href="Montserrat.zip">
+    <!-- Add Font Awesome link here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="lib-options">
+                <div class="option">
+                    <div class="lib-option nav-option">
+                        <img src="library_icon.png" alt="library icon">
+                        <a href="#">your library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+            </div>
+                <div class="lib-boxes"> 
+                    <div class="box">
+                        <div class="box-p1">Create your first playlist</div>
+                        <div class="box-p2">It's easy, we'll help you</div>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="lib-boxes"> 
+                        <div class="boxe">
+                            <div class="box-p1">Let's find come podcasts follow  </div>
+                            <div class="box-p2">We'll keep you updated on new episodes</div>
+                            <button class="badge">browse podcasts</button>
+                        </div>
+                </div>
+        </div>
+        </div> <!-- Sidebar closing tag was missing -->
+   </div>
+
+   <div class="main-content">
+    <div class="sticky-bar">
+        <div class="nav-icon">
+            <img src="backward_icon.png" alt="backward_icon">
+            <img src="forward_icon.png" alt="forward_icon" class="hide">
+        </div>
+        <div class="sticky-nav-options">
+            <button class="badge hide ">Explore Premium</button>
+            <button class="badge dark-badge"><i class="fa-solid fa-download"></i>Install App</button>
+            <i class="fa-regular fa-user"></i>
+        </div>
+    </div>
+   
+        <h2> Recently Played</h2>
+        <div class="card-container">
+        <div class="cards">
+            <img src="card1img.jpeg" alt="card"  class="card-image">
+            <p class="card-title"> Top 50 - Global</p>
+            <p class="card-info">Your daily updates of the most played tracks...</p>
+        </div>
+    </div>
+       
+    <h2> popular albums</h2>
+        <div class="card-container">
+        <div class="cards">
+            <img src="card2img.jpeg" alt="card"  class="card-image">
+            <p class="card-title"> Mahiye Jinna Sohna</p>
+            <p class="card-info">2023.Darshan Raval</p>
+        </div>
+
+        <div class="cards">
+            <img src="card3img.jpeg" alt="card"  class="card-image">
+            <p class="card-title"> Mery Pass Tum Ho</p>
+            <p class="card-info">2023.Rahat Fateh Ali Khan</p>
+        </div>
+
+        <div class="cards">
+            <img src="card4img.jpeg" alt="card"  class="card-image">
+            <p class="card-title"> Naa Ready Ready..</p>
+            <p class="card-info">2023.ANNANDH DHARMAN</p>
+        </div>
+       
+        <div class="cards">
+            <img src="image7.jpeg" alt="card"  class="card-image">
+            <p class="card-title">Making Mamories</p>
+            <p class="card-info">Maanu,Annural Khalid</p>
+        </div>
+       
+
+        <div class="cards">
+            <img src="image8.jpeg" alt="card"  class="card-image">
+            <p class="card-title"> Jhol</p>
+            <p class="card-info">Karan Ajula,Ikky</p>
+        </div>
+       
+        <div class="cards">
+            <img src="image9.jpeg" alt="card"  class="card-image">
+            <p class="card-title"> Still Rollin</p>
+            <p class="card-info">shubh</p>
+        </div>
+ </div>
+
+ <h2> Featured Charts</h2>
+ <div class="card-container">
+ <div class="cards">
+     <img src="card5img.jpeg" alt="card"  class="card-image">
+     <p class="card-info">your weekly update of the most played song........</p>
+ </div>
+
+ <div class="cards">
+     <img src="card6img.jpeg" alt="card"  class="card-image">
+     <p class="card-info">your weekly update of the most played song........</p>
+ </div>
+
+ <div class="cards">
+     <img src="region_us_default.jpg" alt="card"  class="card-image">
+     <p class="card-info">your weekly update of the most played song........</p>
+ </div>
+</div>
+         <div class="footer">
+            <div class="line"></div>
+         </div>
+</div>             
+ 
+
+<div class="music-player">
+    <div class="album"></div>
+    <div class="player">
+        <div class="player-control">
+        <img src="player_icon1.png" class="player-control-icon">
+        <img src="player_icon2.png" class="player-control-icon">
+        <img src="player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+        <img src="player_icon4.png" class="player-control-icon">
+        <img src="player_icon5.png" class="player-control-icon">
+    </div>
+        <div class="playback-bar">
+            <span class="curr-time">00:00  </span>
+         <input type="range" min="0" max="100" class="progress-bar " step="1">
+            <span class="tot-time">3:33</span>
+        </div>
+    </div>
+    <div class="controls"></div>
+    </div>
+</div>
+</body>
+</html>
+
